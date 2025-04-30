@@ -1,61 +1,36 @@
-# Assignment 3 – AI-Powered App Migration Challenge
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
----
+## Getting Started
 
-## 🚀 The Mission
+First, run the development server:
 
-You're part of a front-end innovation team tasked with **modernizing an existing open-source application**. Your mission is to **rebuild the front end** of an app using a **modern JavaScript framework** of your choice (React, Vue, Svelte, Next.js, Nuxt, Astro, etc.).
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-> 🎯 **Your goal:** Create a functional prototype that captures the *look and feel* of the original app, but runs on a clean, modern tech stack. You're not expected to migrate the full backend—just the front-end experience.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
----
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-## 🧠 But There's a Twist...
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-Your team is working under a **tight deadline** and limited resources—so you're expected to **use generative AI to boost your development speed**.
+## Learn More
 
-Use tools like ChatGPT, GitHub Copilot, or Cursor to:
-- Generate boilerplate code
-- Translate UI logic into your chosen framework
-- Create components quickly
-- Troubleshoot bugs
+To learn more about Next.js, take a look at the following resources:
 
-> ⏱️ You have just **2 hours** to complete and present your migration prototype.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
----
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## 🧩 Project Inspiration
+## Deploy on Vercel
 
-Choose an open-source app to clone and reimagine:
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-- 🐘 [**Mastodon**](https://joinmastodon.org) – A decentralized social media alternative to X/Twitter. [GitHub](https://github.com/mastodon/mastodon)
-- 💬 [**Mattermost**](https://mattermost.com) – An open-source messaging platform. [GitHub](https://github.com/mattermost/mattermost)
-
-Or bring your own open-source app—just make sure it's publicly accessible.
-
----
-
-## 🛠️ Recommended Tools & Stack
-
-- **Framework**: React, Vue, Svelte, Astro, Next.js, Nuxt – your choice!
-- **AI Dev Tool**: [Cursor](https://cursor.com) – AI-enhanced coding experience
-- **Deployment**: [Vercel](https://vercel.com) – Fast and easy deployment
-- **Optional**: TailwindCSS, DaisyUI, shadcn/ui, Radix for UI acceleration
-
----
-
-## 🧾 Deliverables
-
-At the end of 2 hours, each team should:
-1. Share a **deployed link** to your app
-2. Present a **brief demo** (5 min max)
-3. Reflect on **how AI helped you** (or didn’t)
-
----
-
-## 💡 Tips for Success
-
-- Break down the app into UI sections: sidebar, feed, chat, etc.
-- Use AI to scaffold components quickly
-- Don't get stuck on full data integration—mock it!
-- Focus on visual and functional fidelity
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
